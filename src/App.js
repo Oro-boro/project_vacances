@@ -1,12 +1,14 @@
 import "./App.css";
-import Interface from "./components/interface-form/interface-form.component";
+import InterfaceForm from "./components/interface-form/interface-form.component";
+import InterfaceResult from "./components/interface-result/interface-result.component";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Route path="/" component={Interface} />
+        <Route path="/" component={InterfaceForm} />
+        <Route path="/" component={InterfaceResult} />
       </div>
     </BrowserRouter>
   );

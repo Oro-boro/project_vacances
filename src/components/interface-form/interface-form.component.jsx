@@ -1,41 +1,13 @@
 import "./interface-form.styles.css";
 
-function Interface() {
+function InterfaceForm() {
   return (
-    <div>
+    <div className="InterfaceForm">
       <h1>Vacances</h1>
-      <p>
-        <label for="Ville" class="obligatoire">
-          Ville de départ :{" "}
-        </label>
-        <input
-          type="text"
-          name="Ville"
-          id="Ville"
-          tabindex="1"
-          placeholder="Champ obligatoire"
-          required
-        />
-      </p>
       <form>
-        <legend>Planification</legend>
-        <p>
-          <label for="Km" class="obligatoire">
-            &nbsp; Kilometres : &nbsp;
-          </label>
-          <input
-            type="text"
-            name="Km"
-            id="Km"
-            tabindex="2"
-            placeholder="Champ obligatoire"
-            required
-          />
-        </p>
-
         <p>
           <label for="Ville" class="obligatoire">
-            &nbsp; entre la ville suivante : &nbsp;
+            Ville de départ :{" "}
           </label>
           <input
             type="text"
@@ -46,13 +18,45 @@ function Interface() {
             required
           />
         </p>
-
         <p>
-          <input type="submit" value="Envoi" id="Envoi" tabindex="3" />
+          <input type="submit" value="Envoi" id="Envoi" tabindex="2" />
+        </p>
+      </form>
+      <form>
+        <legend>Planification</legend>
+        <p>
+          <label for="Ville" class="obligatoire">
+            &nbsp; Ville suivante : &nbsp;
+          </label>
+          <input
+            type="text"
+            name="Ville"
+            id="Ville"
+            tabindex="41"
+            placeholder="Champ obligatoire"
+            required
+          />
+        </p>
+        <p>
+          <label for="Km" class="obligatoire">
+            &nbsp; A : &nbsp;
+          </label>
+          <input
+            type="number"
+            name="Km"
+            id="Km"
+            tabindex="3"
+            placeholder="Champ obligatoire"
+            required
+          />
+        </p>
+        <p>&nbsp; kilometres &nbsp;</p>
+        <p>
+          <input type="submit" value="Envoi" id="Envoi" tabindex="5" />
         </p>
       </form>
     </div>
   );
 }
 
-export default Interface;
+export default InterfaceForm;
