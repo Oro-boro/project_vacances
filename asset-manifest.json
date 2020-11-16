@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Oro-boro/project_vacances.git/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Oro-boro/project_vacances.git/static/js/main.0f11e681.chunk.js",
+    "main.js.map": "/Oro-boro/project_vacances.git/static/js/main.0f11e681.chunk.js.map",
+    "runtime-main.js": "/Oro-boro/project_vacances.git/static/js/runtime-main.1730ff69.js",
+    "runtime-main.js.map": "/Oro-boro/project_vacances.git/static/js/runtime-main.1730ff69.js.map",
+    "static/js/2.f3165b49.chunk.js": "/Oro-boro/project_vacances.git/static/js/2.f3165b49.chunk.js",
+    "static/js/2.f3165b49.chunk.js.map": "/Oro-boro/project_vacances.git/static/js/2.f3165b49.chunk.js.map",
+    "static/js/3.3f075815.chunk.js": "/Oro-boro/project_vacances.git/static/js/3.3f075815.chunk.js",
+    "static/js/3.3f075815.chunk.js.map": "/Oro-boro/project_vacances.git/static/js/3.3f075815.chunk.js.map",
+    "index.html": "/Oro-boro/project_vacances.git/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Oro-boro/project_vacances.git/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.f3165b49.chunk.js.LICENSE.txt": "/Oro-boro/project_vacances.git/static/js/2.f3165b49.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/Oro-boro/project_vacances.git/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1730ff69.js",
+    "static/js/2.f3165b49.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.0f11e681.chunk.js"
+  ]
+}
